@@ -33,6 +33,10 @@ The stack is built using [vue-cli webpack](https://github.com/vuejs-templates/we
 ``` bash
 # install dependencies
 > yarn install
+
+# if you are using nodejs v16 or higher, set the following environment variable
+# export NODE_OPTIONS="--openssl-legacy-provider"
+
 # serve with hot reload at localhost:8080
 > yarn serve
 ```
@@ -40,6 +44,9 @@ The stack is built using [vue-cli webpack](https://github.com/vuejs-templates/we
 Other commands available are:
 
 ``` bash
+# if you are using nodejs v16 or higher, set the following environment variable
+# export NODE_OPTIONS="--openssl-legacy-provider"
+
 # build for production with minification
 yarn run build
 
